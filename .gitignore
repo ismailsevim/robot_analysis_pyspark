@@ -1,25 +1,40 @@
-# Ignore Python cache files
+# ----------------------------
+# Python cache files
+# ----------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore logs
+# ----------------------------
+# Logs
+# ----------------------------
 logs/
 
-# Ignore Jupyter notebook checkpoints
+# ----------------------------
+# Jupyter notebook checkpoints
+# ----------------------------
 .ipynb_checkpoints/
 
-# Ignore system files
+# ----------------------------
+# System files
+# ----------------------------
 .DS_Store
 Thumbs.db
 
-# Ignore the entire Studies folder
+# ----------------------------
+# Studies folder
+# ----------------------------
 Studies/
 
-# Keep data folder, but ignore its contents
+# ----------------------------
+# Data folder: keep folder, ignore content
+# ----------------------------
 /data/*
+!/data/.gitkeep
 
-# Ignore environment files
+# ----------------------------
+# Environment files
+# ----------------------------
 .env
 venv/
